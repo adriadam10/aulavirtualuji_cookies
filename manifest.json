@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Aulavirtual cookies",
+  "version": "1.0",
+  "description": "Hace persistente la cookie de sesión del aula virtual",
+  "permissions": ["cookies", "tabs"],
+  "host_permissions": ["https://aulavirtual.uji.es/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
